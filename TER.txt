@@ -1,0 +1,54 @@
+﻿
+
+
+Sysml = Systeme Modeling Language.
+Composé de diagramme pour élaborer des système pluritechniques que ce soit en phase de conception ou en phase d'analyse.
+
+
+Diagrammes 
+des exigence
+des cas d'utilisation
+de séquence
+d'état
+de définition de blocs
+de blocs internes
+
+
+
+
+Aspect structurels : Diagrammes statiques (comment le système doit il se comporter ?)
+
+
+Les diagrammes de bloc (Sysml):
+
+Le diagramme de bloc permet de représenter la structure du système, ainsi qu'une partie des fonctions du système.
+Cependant des bloc externes au système peuvent être représentés, si ceux ci interagissent avec le système.
+
+
+A →  B	Association
+(A utilise B)
+
+ --→ 		Dependance
+(A dépend B)
+
+Les losanges pleins indique la composition avec un autre bloc,
+(A entre dans la composition de B et lui est indispensable)
+
+les losanges vides indique l'agrégation d'un bloc partagé entre plusieurs bloc du diagramme. 
+(A entre dans la composition de B sans être indispensable à son fonctionnement)
+
+ ______|>   La généralisation dependance de type  
+(A est une sorte de B)
+
+_______₊	Conteneur :relation d'inclusion entre 2 items  
+(B contient A)
+
+Top : nom du bloc et type
+les attributs 
+les fonctions
+
+
+Les diagrammes de bloc (UPPAAL)
+
+
+Les sytèmes hétérogène 
